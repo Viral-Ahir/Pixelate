@@ -1,4 +1,4 @@
-# Pixelate
+#  Pixelate - An Image Processing Application 
 
 NOTE - please refer to USEME.md file for instructions to use this application
 
