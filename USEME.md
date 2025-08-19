@@ -1,5 +1,7 @@
 ## Usage of the Image Processing Application
 
+Clone the code into your machines to use it.
+
 ### --- Compilation ---
 
 Before running the program, you need to compile all the Java files in your project, including the

@@ -1,4 +1,36 @@
-# Image Processing Program
+# Pixelate
+
+NOTE - please refer to USEME.md file for instructions to use this application
+
+Here are few snapshots of how application looks with some of the features-
+
+#### Welcome page 
+![Welcome Page](./resources/assets/ui/welcome-page.png)
+
+#### Vertical Flip
+![Vertical Flip](./resources/assets/ui/vertical-flip.png)
+
+#### Load Image
+![Load Image](./resources/assets/ui/load-image.png)
+
+#### Error when trying to load other image before saving current work
+![Not saved error](./resources/assets/ui/not-save-error.png)
+
+#### Sepia Feature
+![Sepia](./resources/assets/ui/sepia.png)
+
+#### Sharpen Feature
+![Sharpen](./resources/assets/ui/sharpen.png)
+
+#### Greyscale Feature
+![Greyscale](./resources/assets/ui/greyscale.png)
+
+#### Green Component Feature
+![Green Component](./resources/assets/ui/green-component.png)
+
+#### Color Correct feature
+![Color Correct](./resources/assets/ui/color-correct.png)
+
 
 ## --- Overview ---
 
