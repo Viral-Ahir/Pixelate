@@ -1,0 +1,10 @@
+# loading a file
+load resources\assets\dp.jpg image1
+# applying value, luma, intensity
+value-component image1 value
+luma-component image1 luma
+intensity-component image1 intensity
+# saving files
+save resources\scripts\ScriptResults\value.png value
+save resources\scripts\ScriptResults\luma.ppm luma
+save resources\scripts\ScriptResults\intensity.png intensity

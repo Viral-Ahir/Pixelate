@@ -1,0 +1,13 @@
+load resources\assets\leaf24bit.png image1
+compress 20 image1 compress20
+compress 50 image1 compress50
+compress 90 image1 compress90
+histogram compress20 hist1
+histogram compress50 hist2
+histogram compress90 hist3
+save resources\assets\results\Leaf\Leafcompress20.png compress20
+save resources\assets\results\Leaf\Leafcompress50.png compress50
+save resources\assets\results\Leaf\Leafcompress90.png compress90
+save resources\assets\results\Leaf\Histograms\LeafHistcompress20.png hist1
+save resources\assets\results\Leaf\Histograms\LeafHistcompress50.png hist2
+save resources\assets\results\Leaf\Histograms\LeafHistcompress90.png hist3

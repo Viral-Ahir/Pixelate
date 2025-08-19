@@ -1,0 +1,13 @@
+load resources\assets\Cat24bit.png image1
+blur image1 dest1 split 50
+sharpen image1 dest2 split 50
+sepia image1 dest3 split 50
+color-correct image1 dest4 split 50
+levels-adjust 30 150 200 image1 dest5 split 50
+greyscale image1 dest6 split 50
+save resources\assets\results\Cat\CatBlursplit50.png dest1
+save resources\assets\results\Cat\CatSharpensplit50.png dest2
+save resources\assets\results\Cat\CatSepiasplit50.png dest3
+save resources\assets\results\Cat\CatColorCorrectsplit50.png dest4
+save resources\assets\results\Cat\CatLevelAdjustsplit50.png dest5
+save resources\assets\results\Cat\CatGrayscalesplit50.png dest6

@@ -1,0 +1,10 @@
+# loading a file
+load resources\assets\dp.jpg image1
+# extracting components
+red-component image1 redimage1
+green-component image1 greenimage1
+blue-component image1 blueimage1
+#saving the files
+save resources\scripts\ScriptResults\redimage1.jpg redimage1
+save resources\scripts\ScriptResults\blueimage1.jpg greenimage1
+save resources\scripts\ScriptResults\greenimage1.jpg blueimage1

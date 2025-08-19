@@ -1,0 +1,9 @@
+# loading a file
+load resources\assets\dp.jpg image1
+# applying both flips
+horizontal-flip image1 horizontalimage1
+vertical-flip image1 verticalimage1
+# applying doubleflip
+vertical-flip horizontalimage1 doubleflipimage1
+# saving a file
+save resources\scripts\ScriptResults\doubleflipimage1.jpg doubleflipimage1

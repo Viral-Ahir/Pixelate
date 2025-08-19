@@ -1,0 +1,14 @@
+# loading a file
+load resources\assets\dp.jpg image1
+# applying brighten, darken, sepia, blur and sharpen
+brighten 100 image1 bright1
+brighten -100 image1 dark1
+sepia image1 sepia1
+blur image1 blur1
+sharpen image1 sharpen1
+# saving files
+save resources\scripts\ScriptResults\bright.png bright1
+save resources\scripts\ScriptResults\dark.png dark1
+save resources\scripts\ScriptResults\sepia.png sepia1
+save resources\scripts\ScriptResults\blur.png blur1
+save resources\scripts\ScriptResults\sharpen.png sharpen1

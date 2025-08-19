@@ -1,0 +1,59 @@
+# loading a file
+load assets\cat24bit.png image1
+# all operations
+red-component image1 redimage1
+green-component image1 greenimage1
+blue-component image1 blueimage1
+horizontal-flip image1 horizontalimage1
+vertical-flip image1 verticalimage1
+brighten 100 image1 brightimage1
+brighten -100 image1 darkimage1
+blur image1 blurimage1
+sharpen image1 sharpenimage1
+sepia image1 sepiaimage1
+rgb-split image1 Rimage1 Gimage1 Bimage1
+rgb-combine outputimage1 Rimage1 Gimage1 Bimage1
+value-component image1 valueimage1
+intensity-component image1 intensityimage1
+luma-component image1 lumaimage1
+compress 20 image1 compress20
+compress 90 image1 compress90
+histogram compress20 hist1
+histogram compress90 hist3
+levels-adjust 30 150 200 image1 dest1
+color-correct image1 dest3
+histogram dest3 hist2
+blur image1 dest1split split 50
+sharpen image1 dest2split split 50
+sepia image1 dest3split split 50
+color-correct image1 dest4split split 50
+levels-adjust 30 150 200 image1 dest5split split 50
+greyscale image1 dest6split split 50
+# saving all testScriptResults images
+save assets\testScriptResults\Red.jpg redimage1
+save assets\testScriptResults\Green.jpg greenimage1
+save assets\testScriptResults\Blue.jpg blueimage1
+save assets\testScriptResults\Vertical.jpg verticalimage1
+save assets\testScriptResults\Horizontal.jpg horizontalimage1
+save assets\testScriptResults\Bright.jpg brightimage1
+save assets\testScriptResults\Dark.jpg darkimage1
+save assets\testScriptResults\Blur.jpg blurimage1
+save assets\testScriptResults\Sharpen.jpg sharpenimage1
+save assets\testScriptResults\Sepia.jpg sepiaimage1
+save assets\testScriptResults\Value.jpg valueimage1
+save assets\testScriptResults\Intensity.jpg intensityimage1
+save assets\testScriptResults\Luma.jpg lumaimage1
+save assets\testScriptResults\RGBcombineOutput.jpg outputimage1
+save assets\testScriptResults\Catcompress20.png compress20
+save assets\testScriptResults\Catcompress90.png compress90
+save assets\testScriptResults\CatHistcompress20.png hist1
+save assets\testScriptResults\CatHistcompress90.png hist3
+save assets\testScriptResults\CatHistColorCorrect.png hist2
+save assets\testScriptResults\CatLevelAdjust.png dest1
+save assets\testScriptResults\CatColorCorrect.png dest3
+save assets\testScriptResults\CatBlursplit50.png dest1split
+save assets\testScriptResults\CatSharpensplit50.png dest2split
+save assets\testScriptResults\CatSepiasplit50.png dest3split
+save assets\testScriptResults\CatColorCorrectsplit50.png dest4split
+save assets\testScriptResults\CatLevelAdjustsplit50.png dest5split
+save assets\testScriptResults\CatGrayscalesplit50.png dest6split

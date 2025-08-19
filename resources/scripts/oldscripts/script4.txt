@@ -1,0 +1,7 @@
+# loading a file
+load resources\assets\dp.jpg image1
+# rgb-splitting and then rgb-combining
+rgb-split image1 Rimage1 Gimage1 Bimage1
+rgb-combine outputimage1 Rimage1 Gimage1 Bimage1
+# saving output image
+save resources\scripts\ScriptResults\outputCombine.png outputimage1
